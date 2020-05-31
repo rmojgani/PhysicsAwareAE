@@ -1,6 +1,6 @@
 # Physics-aware registration based auto-encoder for convection dominated PDEs
 #### [[project website]](http://www.rmojgani.com)
-<img src="data/schematic.png" width="800">
+<img src="data/schematic.png" width="250">
 
 **Requirements**
 - python 3.6
