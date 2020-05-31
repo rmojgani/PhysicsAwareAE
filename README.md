@@ -8,11 +8,8 @@
 
 ## Experiments
 #### To test on any two images
-Running [main_manifold_burgers.ipynb](./run.ipynb) 
+Running [main_manifold_burgers.ipynb](./main_manifold_burgers.ipynb) 
 
-<img src="figs/kitti-test-42.png" width="300">
-
-#### KITTI
 **RUN[leaderboard](http://www.rmojgani.com).**
 ##### Evaluate Physics-aware registration based auto-encoder on Burgers
 
