@@ -35,6 +35,7 @@ run post_process.m
 * The notebooks are Google colab ready, make sure to have .py, *.pkl, *.h5 files at the same directory of the notebooks (*.ipynb)
 
 #### Burgers' equation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Burgers/main_manifold_burgers.ipynb)
 
 Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
 ```
@@ -47,6 +48,7 @@ main_eulerian_burgers.ipynb
 ```
 
 #### Wave equation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Wave/main_manifold_wave_small.ipynb)
 
 Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
 ```
@@ -59,5 +61,5 @@ main_manifold_wave_small.ipynb
 ```
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Wave/main_manifold_wave_small.ipynb)
+
 
