@@ -14,7 +14,7 @@ https://pypi.org/project/numpy/
 
 ## Experiments
 #### Rotating A
-Running [main_manifold_burgers.ipynb](./code/rotatedA) 
+Location [Rotated A](./Experiments/rotatedA) 
 
 **RUN[leaderboard](http://www.blindforNIPS.com).**
 ##### Evaluate Physics-aware registration based auto-encoder on Burgers
