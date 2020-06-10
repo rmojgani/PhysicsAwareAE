@@ -3,7 +3,7 @@
 <img src="data/schematic.png" width="250">
 
 **Requirements**
-- Matlan R2016+
+- Matlab R2016+
 - python 3.6
 	- [scipy](https://pypi.org/project/scipy/)
 	- [numpy](https://pypi.org/project/numpy/)
