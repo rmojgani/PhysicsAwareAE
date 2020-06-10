@@ -13,8 +13,8 @@ https://pypi.org/project/numpy/
 - [Keras 2.3.1](https://pypi.org/project/Keras/)
 
 ## Experiments
-#### Rotating A
-Location [Rotated A](./Experiments/rotatedA) 
+#### Rotating A (./Experiments/rotatedA) 
+Location [Rotated A Location]
 
 **RUN[leaderboard](http://www.blindforNIPS.com).**
 ##### Evaluate Physics-aware registration based auto-encoder on Burgers
