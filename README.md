@@ -34,8 +34,7 @@ run post_process.m
 ### Physics based auto-encoder in an LSTM architecture
 * The notebooks are Google colab ready, make sure to have .py, *.pkl, *.h5 files at the same directory of the notebooks (*.ipynb)
 
-#### Burgers' equation
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Burgers/main_manifold_burgers.ipynb)
+#### Burgers' equation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Burgers/main_manifold_burgers.ipynb)
 
 Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
 ```
