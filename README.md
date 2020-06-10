@@ -11,7 +11,7 @@
 - [Keras 2.3.1](https://pypi.org/project/Keras/)
 
 ## Experiments
-#### Rotating A
+### Rotating A
 Rotating A [Rotated A Location](./Experiments/rotatedA) 
 
 open matlab
@@ -29,11 +29,11 @@ Evaluate the snapshots on the learned manifold
 run post_process.m
 ```
 
-## Two-dimensional fluid flows (2D Riemann Flows)
+### Two-dimensional fluid flows (2D Riemann Flows)
 
-##### Physics based auto-encoder in an LSTM architecture
+### Physics based auto-encoder in an LSTM architecture
 
-- Burgers
+#### Burgers' equation
 
 Run the manifold learning
 ```
@@ -45,4 +45,4 @@ Run post process
 python 
 ```
 
-- Wave
+#### Wave equation
