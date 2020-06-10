@@ -32,6 +32,7 @@ run post_process.m
 ### Two-dimensional fluid flows (2D Riemann Flows)
 
 ### Physics based auto-encoder in an LSTM architecture
+* The notebooks are Google colab ready, make sure to have .py, *.pkl, *.h5 files at the same directory of the notebooks (*.ipynb)
 
 #### Burgers' equation
 
