@@ -5,9 +5,9 @@
 **Requirements**
 - Matlan R2016+
 - python 3.6
--- [scipy](https://www.scipy.org/install.html#pip-install)
-- [tensorflow](https://www.tensorflow.org/install)
-- [Keras](https://pypi.org/project/Keras/)
+	- [scipy](https://www.scipy.org/install.html#pip-install)
+- [TensorFlow 2](https://www.tensorflow.org/install)
+- [Keras 2.3.1](https://pypi.org/project/Keras/)
 
 ## Experiments
 #### To test on any two images
