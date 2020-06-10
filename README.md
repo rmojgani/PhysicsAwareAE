@@ -35,14 +35,24 @@ run post_process.m
 
 #### Burgers' equation
 
-Run the manifold learning
+Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
 ```
-python 
+main_manifold_burgers.ipynb
 ```
 
-Run post process
+Run the manifold learning and train the LSTM with Neural Network based auto-encoder
 ```
-python 
+main_eulerian_burgers.ipynb
 ```
 
 #### Wave equation
+
+Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
+```
+ main_eulerian_wave_small.ipynb
+```
+
+Run the manifold learning and train the LSTM with Neural Network based auto-encoder
+```
+main_manifold_wave_small.ipynb
+```
