@@ -13,13 +13,20 @@ https://pypi.org/project/numpy/
 - [Keras 2.3.1](https://pypi.org/project/Keras/)
 
 ## Experiments
-#### Rotating A (./Experiments/rotatedA) 
-Location [Rotated A Location]
+#### Rotating A
+Rotating A [Rotated A Location](./Experiments/rotatedA) 
 
-**RUN[leaderboard](http://www.blindforNIPS.com).**
-##### Evaluate Physics-aware registration based auto-encoder on Burgers
-
-Run
+open matlab
 ```
-python main_manifold_burgers.py
+matlab -nodisplay -nosplash
+```
+
+Run the manifold learning
+```
+run main_rotatingA.m
+```
+
+Evaluate the snapshots on the learned manifold
+```
+run post_process.m
 ```

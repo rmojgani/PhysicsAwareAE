@@ -1,0 +1,190 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> {Error using addpath_host
+Too many input arguments.
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321     2.81577e+06        1.26e+05            1
+     1         642          414255         3.6e+04          0.1        4.97478
+
+Solver stopped prematurely.
+
+lsqnonlin stopped because it exceeded the iteration limit,
+options.MaxIterations = 0.000000e+00.
+
+>> Elapsed time is 480.714051 seconds.
+>> >> 
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321          414255         3.6e+04            1
+     1         642          113708        1.31e+04          0.1         1.9998
+     2         963         13782.7        2.12e+03         0.01        2.85319
+     3        1284         5422.28             183        0.001         9.6976
+     4        1605         4885.21            41.2       0.0001        44.6028
+     5        1926         3687.29            70.3        1e-05        111.164
+     6        2248          2614.2            83.8       0.0001         51.741
+     7        2569         1785.89            97.7        1e-05        45.0144
+     8        2891         1199.13            96.4       0.0001        27.7263
+     9        3212         870.709            78.7        1e-05        28.6433
+    10        3534         665.411            97.8       0.0001        37.1517
+    11        3855         508.459            99.6        1e-05        47.0283
+    12        4177         373.738             167       0.0001        55.3181
+    13        4498          286.91             144        1e-05        58.9108
+    14        4819         238.229            89.7        1e-06        80.2415
+    15        5141         179.512            94.7        1e-05        47.4132
+    16        5462         168.046            51.1        1e-06         32.554
+    17        5784         164.653            19.1        1e-05         18.432
+    18        6105         162.662              37        1e-06         16.598
+    19        6427         160.676            14.2        1e-05        14.0026
+    20        6748         158.802            17.2        1e-06        12.3158
+    21        7070         157.055            27.1        1e-05        11.7946
+
+Solver stopped prematurely.
+
+lsqnonlin stopped because it exceeded the iteration limit,
+options.MaxIterations = 2.000000e+01.
+
+>> >> >> >> >> 
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         157.055            27.1            1
+     1         642         156.951            10.7          0.1      0.0202184
+
+Solver stopped prematurely.
+
+lsqnonlin stopped because it exceeded the iteration limit,
+options.MaxIterations = 0.000000e+00.
+
+>> Elapsed time is 499.296730 seconds.
+>> >> 
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         156.951            10.7            1
+     1         642         156.904            7.79          0.1       0.011842
+     2         963         156.701            7.26         0.01      0.0510926
+     3        1284         156.025            32.7        0.001       0.226757
+     4        1605         154.884             105       0.0001       0.720085
+     5        1926         153.336             124        1e-05        2.23222
+     6        2247         150.814             122        1e-06        9.71959
+     7        2569         148.824            98.8        1e-05        10.7067
+     8        2890         145.575            48.8        1e-06        9.45629
+     9        3212         144.076            71.7        1e-05        9.97631
+    10        3533           142.3            35.4        1e-06        10.3442
+    11        3855         142.296            69.2        1e-05         11.107
+    12        4179         142.153            95.2         0.01       0.318954
+    13        4501          141.92             129          0.1      0.0962038
+    14        4823          141.67            52.3            1      0.0145867
+    15        5144         141.631            49.1          0.1     0.00532844
+    16        5466         141.612            44.2            1     0.00431407
+    17        5787         141.604            70.2          0.1     0.00444259
+    18        6110         141.591            43.4           10    0.000471289
+    19        6431         141.586            28.9            1    0.000444591
+    20        6752         141.577            31.8          0.1     0.00368285
+    21        7074         141.573            63.3            1     0.00359552
+    22        7396         141.562            34.8           10    0.000481659
+    23        7717         141.559            16.5            1    0.000441076
+    24        8038          141.55            23.5          0.1     0.00332186
+    25        8361         141.548            15.9           10      0.0004764
+    26        8682         141.546            13.7            1    0.000300459
+    27        9003          141.54            33.6          0.1     0.00325219
+    28        9326         141.537            7.47           10    0.000629699
+    29        9647         141.536            7.68            1    0.000551092
+    30        9968         141.529            8.91          0.1      0.0038593
+    31       10289         141.523              94         0.01      0.0202231
+    32       10613         141.514              95           10    0.000746541
+    33       10934         141.506             104            1    0.000690732
+    34       11257         141.502            97.2          100    7.18064e-05
+    35       11578         141.499            70.4           10    7.08086e-05
+    36       11900         141.497            49.2          100    6.89491e-05
+    37       12221         141.496            42.6           10    6.84154e-05
+    38       12542          141.49            32.2            1    0.000615786
+    39       12865          141.49              80          100    5.92673e-05
+    40       13187          141.49            65.1         1000    6.05495e-06
+    41       13508          141.49            39.8          100    5.99744e-06
+    42       13830          141.49              22         1000    5.95473e-06
+    43       14151          141.49            17.5          100    5.93406e-06
+    44       14472         141.489             513           10    5.89101e-05
+    45       14794         141.489              96          100    5.88049e-05
+    46       15116         141.489             168         1000    6.10001e-06
+    47       15437         141.489             168          100    5.85686e-06
+    48       15758         141.489             168           10    5.80796e-05
+    49       16079         141.488             168            1    0.000546829
+    50       16400         141.485            74.4          0.1     0.00400466
+    51       16728         141.485            74.4        1e+06    3.39727e-09
+    52       17049         141.485            74.4       100000    3.39884e-09
+    53       17371         141.485            74.4        1e+06     3.3987e-09
+    54       17693         141.485            74.4        1e+07    3.39753e-10
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+Elapsed time is 12085.198695 seconds.
+
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         141.485            74.4            1
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+Elapsed time is 12281.561300 seconds.
+
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         141.485            74.4            1
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+Elapsed time is 12479.455704 seconds.
+
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         141.485            74.4            1
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+Elapsed time is 12674.181205 seconds.
+
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         141.485            74.4            1
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+Elapsed time is 12868.948573 seconds.
+>> 
+                                        First-Order                    Norm of 
+ Iteration  Func-count    Residual       optimality      Lambda           step
+     0         321         141.485            74.4            1
+
+Local minimum possible.
+lsqnonlin stopped because the relative size of the current step is less than
+the value of the step size tolerance.
+
+>> >> Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 12).
+Parallel pool using the 'local' profile is shutting down.
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+ans =
+
+    1.0000
+
+>> 
