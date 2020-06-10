@@ -7,8 +7,6 @@
 - python 3.6
 	- [scipy](https://pypi.org/project/scipy/)
 	- [numpy](https://pypi.org/project/numpy/)
-
-https://pypi.org/project/numpy/
 - [TensorFlow 2](https://www.tensorflow.org/install)
 - [Keras 2.3.1](https://pypi.org/project/Keras/)
 
@@ -30,3 +28,21 @@ Evaluate the snapshots on the learned manifold
 ```
 run post_process.m
 ```
+
+## Two-dimensional fluid flows (2D Riemann Flows)
+
+##### Physics based auto-encoder in an LSTM architecture
+
+- Burgers
+
+Run the manifold learning
+```
+python 
+```
+
+Run post process
+```
+python 
+```
+
+- Wave
