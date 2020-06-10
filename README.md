@@ -47,8 +47,7 @@ Run the manifold learning and train the LSTM with Neural Network based auto-enco
 main_eulerian_burgers.ipynb
 ```
 
-#### Wave equation
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Wave/main_manifold_wave_small.ipynb)
+#### Wave equation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Wave/main_manifold_wave_small.ipynb)
 
 Run the manifold learning and train the LSTM with Physics-aware registration based auto-encoder
 ```
