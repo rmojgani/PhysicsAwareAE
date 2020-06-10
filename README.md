@@ -30,8 +30,27 @@ run post_process.m
 ```
 
 ### Two-dimensional fluid flows (2D Riemann Flows)
+2D Fluid Flows [2D Fluid Flows](./Experiments/2DRiemann) 
+
+open matlab
+```
+matlab -nodisplay -nosplash
+```
+
+Run the manifold learning
+```
+run main_opt_config03.m
+run main_opt_config12.m
+```
+Evaluate the snapshots on the learned manifold
+```
+main_solve_config03.m
+main_solve_config12.m
+```
+
 
 ### Physics based auto-encoder in an LSTM architecture
+LSTM architecture [LSTM architecture](./Experiments/LSTM) 
 * The notebooks are Google colab ready, make sure to have .py, *.pkl, *.h5 files at the same directory of the notebooks (*.ipynb)
 
 #### Burgers' equation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./Experiments/LSTM/Burgers/main_manifold_burgers.ipynb)
