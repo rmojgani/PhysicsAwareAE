@@ -1,5 +1,5 @@
 # Physics-aware registration based auto-encoder for convection dominated PDEs
-#### [[project website]](http://www.tobe.updated)
+#### [[project website]](http://www.rmojgani.com)
 <img src="data/schematic.png" width="250">
 
 **Requirements**
