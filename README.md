@@ -1,5 +1,5 @@
 # Physics-aware registration based auto-encoder for convection dominated PDEs
-#### [[project website]](http://www.rmojgani.com)
+#### [[project website]](https://arxiv.org/abs/2006.15655)
 <img src="data/schematic.png" width="250">
 
 **Requirements**
