@@ -4,7 +4,7 @@
 * [Introduction](#introduction)
 * [Experiments](#Experiments)
     * [Rotating A](#Rotating-A)
-    * [Two-dimensional fluid flows (2D Riemann Flows)](#Two-dimensional-fluid-flows-(2D-Riemann-Flows))
+    * [Two-dimensional fluid flows](#Two-dimensional-fluid-flows)
     * [Physics aware auto-encoder in an LSTM architecture](#Physics-aware-auto-encoder-in-an-LSTM-architecture)
 * [Citation](#citation)
 
@@ -41,8 +41,8 @@ Evaluate the snapshots on the learned manifold
 run post_process.m
 ```
 
-### Two-dimensional fluid flows (2D Riemann Flows)
-2D Fluid Flows [2D Fluid Flows](./Experiments/2DRiemann) 
+### Two-dimensional fluid flows
+2D Fluid Flows (2D Riemann) [2D Fluid Flows](./Experiments/2DRiemann) 
 
 open matlab
 ```
