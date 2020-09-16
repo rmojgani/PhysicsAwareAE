@@ -1,6 +1,4 @@
 # Physics-aware registration based auto-encoder for convection dominated PDEs
-#### [[project website]](https://arxiv.org/abs/2006.15655)
-<img src="data/schematic.png" width="250">
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -9,6 +7,12 @@
     * [Two-dimensional fluid flows (2D Riemann Flows)](#Two-dimensional fluid flows (2D Riemann Flows))
     * [Physics based auto-encoder in an LSTM architecture](#Physics based auto-encoder in an LSTM architecture)
 * [Citation](#citation)
+
+## Introduction
+We design a physics-aware auto-encoder to specifically reduce the dimensionality of solutions arising from convection-dominated nonlinear physical systems. Although existing nonlinear manifold learning methods seem to be compelling tools to reduce the dimensionality of data characterized by a large Kolmogorov n-width, they typically lack a straightforward mapping from the latent space to the high-dimensional physical space. Moreover, the realized latent variables are often hard to interpret. Therefore, many of these methods are often dismissed in the reduced order modeling of dynamical systems governed by the partial differential equations (PDEs). Accordingly, we propose an auto-encoder type nonlinear dimensionality reduction algorithm. The unsupervised learning problem trains a diffeomorphic spatio-temporal grid, that registers the output sequence of the PDEs on a non-uniform parameter/time-varying grid, such that the Kolmogorov n-width of the mapped data on the learned grid is minimized. We demonstrate the efficacy and interpretability of our approach to separate convection/advection from diffusion/scaling on various manufactured and physical systems.
+
+#### [[project website]](https://arxiv.org/abs/2006.15655)
+<img src="data/schematic.png" width="250">
 
 **Requirements**
 - Matlab R2016+
