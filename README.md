@@ -5,6 +5,7 @@
 
 ## Table of contents
 * [Introduction](#introduction)
+* [Requirements](#Requirements)
 * [Experiments](#Experiments)
     * [Rotating A](#Rotating-A)
     * [Two-dimensional fluid flows](#Two-dimensional-fluid-flows)
@@ -14,7 +15,7 @@
 ## Introduction
 We design a physics-aware auto-encoder to specifically reduce the dimensionality of solutions arising from convection-dominated nonlinear physical systems. Although existing nonlinear manifold learning methods seem to be compelling tools to reduce the dimensionality of data characterized by a large Kolmogorov n-width, they typically lack a straightforward mapping from the latent space to the high-dimensional physical space. Moreover, the realized latent variables are often hard to interpret. Therefore, many of these methods are often dismissed in the reduced order modeling of dynamical systems governed by the partial differential equations (PDEs). Accordingly, we propose an auto-encoder type nonlinear dimensionality reduction algorithm. The unsupervised learning problem trains a diffeomorphic spatio-temporal grid, that registers the output sequence of the PDEs on a non-uniform parameter/time-varying grid, such that the Kolmogorov n-width of the mapped data on the learned grid is minimized. We demonstrate the efficacy and interpretability of our approach to separate convection/advection from diffusion/scaling on various manufactured and physical systems.
 
-**Requirements**
+## Requirements
 - Matlab R2016+
 - python 3.6
 	- [scipy](https://pypi.org/project/scipy/)
