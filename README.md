@@ -2,6 +2,14 @@
 #### [[project website]](https://arxiv.org/abs/2006.15655)
 <img src="data/schematic.png" width="250">
 
+## Table of contents
+* [Introduction](#introduction)
+* [Experiments](#Experiments)
+    * [Rotating A](#Rotating A)
+    * [Two-dimensional fluid flows (2D Riemann Flows)](#Two-dimensional fluid flows (2D Riemann Flows))
+    * [Physics based auto-encoder in an LSTM architecture](#Physics based auto-encoder in an LSTM architecture)
+* [Citation](#citation)
+
 **Requirements**
 - Matlab R2016+
 - python 3.6
@@ -78,5 +86,14 @@ main_manifold_wave_small.ipynb
 ```
 
 
-
-
+## Citation
+```
+@article{Mojgani_arxiv_2020,
+	author = {Mojgani, Rambod and Balajewicz, Maciej},
+	title={Physics-aware registration based auto-encoder for convection dominated PDEs},
+	journal={arXiv preprint arXiv:2006.15655},
+	archivePrefix = "arXiv",
+	eprint = {2006.15655},
+	year = 2020,
+}
+```
