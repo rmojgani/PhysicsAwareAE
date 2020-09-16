@@ -4,8 +4,8 @@
 * [Introduction](#introduction)
 * [Experiments](#Experiments)
     * [Rotating A](#Rotating-A)
-    * [Two-dimensional fluid flows (2D Riemann Flows)](#Two-dimensional fluid flows (2D Riemann Flows))
-    * [Physics based auto-encoder in an LSTM architecture](#Physics based auto-encoder in an LSTM architecture)
+    * [Two-dimensional fluid flows (2D Riemann Flows)](#Two-dimensional-fluid-flows-(2D-Riemann-Flows))
+    * [Physics aware auto-encoder in an LSTM architecture](#Physics-aware-auto-encoder-in-an-LSTM-architecture)
 * [Citation](#citation)
 
 ## Introduction
@@ -61,7 +61,7 @@ main_solve_config12.m
 ```
 
 
-### Physics based auto-encoder in an LSTM architecture
+### Physics aware auto-encoder in an LSTM architecture
 LSTM architecture [LSTM architecture](./Experiments/LSTM) 
 * The notebooks are Google colab ready, make sure to have .py, *.pkl, *.h5 files at the same directory of the notebooks (*.ipynb)
 
