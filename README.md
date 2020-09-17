@@ -96,7 +96,7 @@ Read more on [[arXiv]](https://arxiv.org/abs/2006.15655)
 ```
 @article{Mojgani_arxiv_2020,
 	author = {Mojgani, Rambod and Balajewicz, Maciej},
-	title={Physics-aware registration based auto-encoder for convection dominated PDEs},
+	title={Physics-aware registration based auto-encoder for convection dominated {PDE}s},
 	journal={arXiv preprint arXiv:2006.15655},
 	archivePrefix = "arXiv",
 	eprint = {2006.15655},
