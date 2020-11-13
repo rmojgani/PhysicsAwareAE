@@ -6,5 +6,5 @@ scipy
 matplotlib
 pickle
 
-# Not supported by github
+# Not a python package
 # Matlab >= 2016b
