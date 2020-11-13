@@ -1,0 +1,9 @@
+python >= 3.6
+keras >= 2.3.0
+tensorflow >= 2.0.0
+numpy
+scipy
+matplotlib
+pickle
+
+Matlab >= 2016b
