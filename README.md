@@ -92,7 +92,7 @@ main_manifold_wave_small.ipynb
 
 
 ## Citation
-Read more on [[arXiv]](https://arxiv.org/abs/2006.15655)
+To appear in AAAI-21; Meanwhile, read more on [[arXiv]](https://arxiv.org/abs/2006.15655)
 ```
 @article{Mojgani_arxiv_2020,
 	author = {Mojgani, Rambod and Balajewicz, Maciej},
