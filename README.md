@@ -1,4 +1,4 @@
-# Physics-aware registration based auto-encoder for convection dominated PDEs
+# [Physics-aware] low-rank registration based manifold[/auto-encoder] for convection dominated PDEs
 
 #### [[project website]](https://arxiv.org/abs/2006.15655)
 <img src="data/schematic.png" width="250">
@@ -24,13 +24,17 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 - [Low-rank registeration based manifolds](https://youtu.be/fDYPAj9WAbk)
 
 ## FAQ
-- How does the method handle noisy data?
+
+- **Why the method is considered *physics-aware*?**
+	- The existance of a low-rank time/parameter-varying grid that minimize the Kolmogrov n-width is a conjecture based on the physics of many of the convection dominated flows, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
+	
+- **Why the method is considered an *auto-encoder*?**
+	- The method *acts* as an auto-encoder where the encoder/decoders are the mapping to/from the time/parameter-varying grid.
+	
+- **How does the method handle noisy data?**
 	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
 
-- Why the method is considered *physics aware*?
-	- The existance of a low-rank grid that minimize the Kolmogrov n-width is an assumption based on the physics of many of the convection dominated flows read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
-
-- What interpolation scheme to use?
+- **What interpolation scheme to use?**
 	- Any of the off-the-shelf interpolation schemes, e.g. (bi-)linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to the local aliasing of high wave-number bases (features) on the coarsened grid.
 
 ## Requirements
