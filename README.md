@@ -26,17 +26,17 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 ## FAQ
 
 - **Why is the method considered *physics-aware*?**
-	- The existance of a low-rank time/parameter-varying grid that minimize the Kolmogrov n-width is a conjecture based on the physics of many of the convection dominated flows, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
+	- The existance of a low-rank time/parameter-varying grid that minimizes the Kolmogrov n-width of the snapshots is a conjecture based on the physics of many of the convection dominated flows and is based on the possiblity of low-rank approximation of the characteristics line of hyperbolic PDEs, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
 	
 - **Why is the method considered an *auto-encoder*?**
-	- We make a one-to-one comparison of the traditional deifinition of a neural network based auto-encoder to the proposed approach. An auto-encoder is defined as:
-\\[
-\begin{array}{l}
-\phi: \mathcal{X} \rightarrow \mathcal{F} \\
-\psi: \mathcal{F} \rightarrow \mathcal{X} \\
-\phi, \psi=\underset{\phi, \psi}{\arg \min }\|X-(\psi \circ \phi) X\|^{2}
-\end{array}
-\\].
+	- We make a one-to-one comparison of the traditional definition of a neural network-based auto-encoder to the proposed approach. An auto-encoder is defined as:
+	\\[
+	\begin{array}{l}
+	\phi: \mathcal{X} \rightarrow \mathcal{F} \\
+	\psi: \mathcal{F} \rightarrow \mathcal{X} \\
+	\phi, \psi=\underset{\phi, \psi}{\arg \min }\|X-(\psi \circ \phi) X\|^{2}
+	\end{array}
+	\\].
 
 Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*, \\(phi\\) and \\(\psi\\),are the mapping *to/from* the time/parameter-varying grid, \\(\mathcal{G}\\) and \\(\mathcal{G}^{-1}\\). The *code* is the interpolated data on the time/parameter-varying grid, \\(\tilde(\bm{M})\\). The feature space, \\(\mathcal{F}\\), is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, \\(\mathcal {X}\\).
 	
