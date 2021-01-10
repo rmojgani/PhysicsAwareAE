@@ -5,6 +5,9 @@
 
 ## Table of contents
 * [Introduction](#introduction)
+* [Method](#Method)
+    * [Video-description](#Video-description)
+* [FAQ](#FAQ)
 * [Requirements](#Requirements)
 * [Experiments](#Experiments)
     * [Rotating A](#Rotating-A)
@@ -15,9 +18,20 @@
 ## Introduction
 We design a physics-aware auto-encoder to specifically reduce the dimensionality of solutions arising from convection-dominated nonlinear physical systems. Although existing nonlinear manifold learning methods seem to be compelling tools to reduce the dimensionality of data characterized by a large Kolmogorov n-width, they typically lack a straightforward mapping from the latent space to the high-dimensional physical space. Moreover, the realized latent variables are often hard to interpret. Therefore, many of these methods are often dismissed in the reduced order modeling of dynamical systems governed by the partial differential equations (PDEs). Accordingly, we propose an auto-encoder type nonlinear dimensionality reduction algorithm. The unsupervised learning problem trains a diffeomorphic spatio-temporal grid, that registers the output sequence of the PDEs on a non-uniform parameter/time-varying grid, such that the Kolmogorov n-width of the mapped data on the learned grid is minimized. We demonstrate the efficacy and interpretability of our approach to separate convection/advection from diffusion/scaling on various manufactured and physical systems.
 
-## Video description 
+## Method
+
+### Video-description 
 - [Low-rank registeration based manifolds](https://youtu.be/fDYPAj9WAbk)
 
+## FAQ
+- How does the method handle noisy data?
+	- SVD and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data
+
+- Why the method is considered *physics aware*?
+	- The existance of a low-rank grid that minimize the Kolmogrov n-width is an assumption based on the physics of many of the convection dominated flows.
+
+- What interpolation approach to use?
+	- Any of the off-the-shelf interpolation methods, e.g. (bi-)linear, cubic, spline. High order interpolation leads to lower error only for higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to local aliasing of high wave-number bases (features) on the coarsened grid.
 
 ## Requirements
 - Matlab R2016+
