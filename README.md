@@ -29,7 +29,16 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 	- The existance of a low-rank time/parameter-varying grid that minimize the Kolmogrov n-width is a conjecture based on the physics of many of the convection dominated flows, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
 	
 - **Why is the method considered an *auto-encoder*?**
-	- The method *acts* as an auto-encoder where the encoder/decoders are the mapping to/from the time/parameter-varying grid.
+	- We make a one-to-one comparison of the traditional deifinition of a neural network based auto-encoder to the proposed approach. An auto-encoder is defined as:
+\\[
+\begin{array}{l}
+\phi: \mathcal{X} \rightarrow \mathcal{F} \\
+\psi: \mathcal{F} \rightarrow \mathcal{X} \\
+\phi, \psi=\underset{\phi, \psi}{\arg \min }\|X-(\psi \circ \phi) X\|^{2}
+\end{array}
+\\].
+
+Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*, \\(phi\\) and \\(\psi\\),are the mapping *to/from* the time/parameter-varying grid, \\(\mathcal{G}\\) and \\(\mathcal{G}^{-1}\\). The *code* is the interpolated data on the time/parameter-varying grid, \\(\tilde(\bm{M})\\). The feature space, \\(\mathcal{F}\\), is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, \\(\mathcal {X}\\).
 	
 - **How does the method handle noisy data?**
 	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
