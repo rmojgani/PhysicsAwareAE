@@ -25,13 +25,13 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 
 ## FAQ
 - How does the method handle noisy data?
-	- SVD and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data
+	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
 
 - Why the method is considered *physics aware*?
-	- The existance of a low-rank grid that minimize the Kolmogrov n-width is an assumption based on the physics of many of the convection dominated flows.
+	- The existance of a low-rank grid that minimize the Kolmogrov n-width is an assumption based on the physics of many of the convection dominated flows read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
 
-- What interpolation approach to use?
-	- Any of the off-the-shelf interpolation methods, e.g. (bi-)linear, cubic, spline. High order interpolation leads to lower error only for higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to local aliasing of high wave-number bases (features) on the coarsened grid.
+- What interpolation scheme to use?
+	- Any of the off-the-shelf interpolation schemes, e.g. (bi-)linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to the local aliasing of high wave-number bases (features) on the coarsened grid.
 
 ## Requirements
 - Matlab R2016+
