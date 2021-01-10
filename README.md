@@ -38,13 +38,13 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 	\end{array}
 	\\].
 
-Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*,<img src="https://render.githubusercontent.com/render/math?math=\\(phi\\)"> and \\(\psi\\),are the mapping *to/from* the time/parameter-varying grid, \\(\mathcal{G}\\) and \\(\mathcal{G}^{-1}\\). The *code* is the interpolated data on the time/parameter-varying grid, \\(\tilde(\bm{M})\\). The feature space, \\(\mathcal{F}\\), is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, \\(\mathcal {X}\\).
+Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*,<img src="https://render.githubusercontent.com/render/math?math=%5Cphi"> and <img src="https://render.githubusercontent.com/render/math?math=%5Cpsi">,are the mapping *to/from* the time/parameter-varying grid, <img src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BG%7D"> and <img src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BG%7D%5E%7B-1%7D">. The *code* is the interpolated data on the time/parameter-varying grid, <img src="https://render.githubusercontent.com/render/math?math=%5Cwidetilde%7BM%7D">. The feature space, <img src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BF%7D">, is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, <img src="https://render.githubusercontent.com/render/math?math=%5Cmathcal%7BX%7D">.
 	
 - **How does the method handle noisy data?**
 	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
 
 - **What interpolation scheme to use?**
-	- Use any of the off-the-shelf interpolation schemes, e.g. linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to the local aliasing of high wave-number bases (features) on the coarsened grid. Since we are often interested in a low-rank reconstruction, linear interpolation would be sufficient.
+	- Use any of the off-the-shelf interpolation schemes, e.g. linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher <img src="https://render.githubusercontent.com/render/math?math=k_r">. This is due to the local aliasing of high wave-number bases (features) on the coarsened grid. Since we are often interested in a low-rank reconstruction, linear interpolation would be sufficient.
 
 - **What optimization scheme to use?**
 	- Use any of the methods that can handle nonlinear constraints.
