@@ -25,18 +25,21 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 
 ## FAQ
 
-- **Why the method is considered *physics-aware*?**
+- **Why is the method considered *physics-aware*?**
 	- The existance of a low-rank time/parameter-varying grid that minimize the Kolmogrov n-width is a conjecture based on the physics of many of the convection dominated flows, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
 	
-- **Why the method is considered an *auto-encoder*?**
+- **Why is the method considered an *auto-encoder*?**
 	- The method *acts* as an auto-encoder where the encoder/decoders are the mapping to/from the time/parameter-varying grid.
 	
 - **How does the method handle noisy data?**
 	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
 
 - **What interpolation scheme to use?**
-	- Any of the off-the-shelf interpolation schemes, e.g. (bi-)linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to the local aliasing of high wave-number bases (features) on the coarsened grid.
+	- Use any of the off-the-shelf interpolation schemes, e.g. linear, cubic, spline. High order interpolation schemes only becomes advantageous in higher rank of reconstruction, i.e. higher \\(k_r\\). This is due to the local aliasing of high wave-number bases (features) on the coarsened grid. Since we are often interested in a low-rank reconstruction, linear interpolation would be sufficient.
 
+- **What optimization scheme to use?**
+	- Use any of the methods that can handle nonlinear constraints.
+	
 ## Requirements
 - Matlab R2016+
 - python 3.6
