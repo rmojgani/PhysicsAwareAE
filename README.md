@@ -3,7 +3,7 @@
 # [Physics-aware] low-rank registration based manifold[/auto-encoder] for convection dominated PDEs
 
 #### [[project website]](https://arxiv.org/abs/2006.15655)
-<img src="data/schematic.gif" width="250">
+<img src="data/schematic.gif" width="500">
 
 ## Table of contents
 * [Introduction](#introduction)
