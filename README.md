@@ -38,7 +38,7 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 	\end{array}
 	\\].
 
-Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*, \\(phi\\) and \\(\psi\\),are the mapping *to/from* the time/parameter-varying grid, \\(\mathcal{G}\\) and \\(\mathcal{G}^{-1}\\). The *code* is the interpolated data on the time/parameter-varying grid, \\(\tilde(\bm{M})\\). The feature space, \\(\mathcal{F}\\), is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, \\(\mathcal {X}\\).
+Our proposed low-rank registeration based method *acts* as an auto-encoder where the *encoder/decoders*,<img src="https://render.githubusercontent.com/render/math?math=\\(phi\\)"> and \\(\psi\\),are the mapping *to/from* the time/parameter-varying grid, \\(\mathcal{G}\\) and \\(\mathcal{G}^{-1}\\). The *code* is the interpolated data on the time/parameter-varying grid, \\(\tilde(\bm{M})\\). The feature space, \\(\mathcal{F}\\), is the space of time/parameter-varying grid. The proposed feature space is *compressed* since it is of a lower dimensionality(here rank) compared to the the input space, \\(\mathcal {X}\\).
 	
 - **How does the method handle noisy data?**
 	- SVD (singular value decomposition) and truncation at the heart of the algorithm acts as a filter removing the low energy-containing features of the data, i.e. the noise is filtered as a result of SVD-truncate.
