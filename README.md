@@ -23,7 +23,7 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 ## Method
 
 ### Video-description 
-- [Low-rank registeration based manifolds](https://youtu.be/fDYPAj9WAbk)
+- [Low-rank registeration based manifolds](https://youtu.be/fDYPAj9WAbk)\
 <a href="https://youtu.be/fDYPAj9WAbk" title="AAAI-21"><img src="doc_files/YT.png" width="500"></a>
 
 
