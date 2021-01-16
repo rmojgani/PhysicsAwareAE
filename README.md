@@ -3,7 +3,7 @@
 # [Physics-aware] low-rank registration based manifold[/auto-encoder] for convection dominated PDEs
 
 #### [[project website]](https://arxiv.org/abs/2006.15655)
-<img src="data/schematic.gif" width="500">
+<img src="doc_files/schematic.gif" width="500">
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -24,6 +24,8 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 
 ### Video-description 
 - [Low-rank registeration based manifolds](https://youtu.be/fDYPAj9WAbk)
+<a href="https://youtu.be/fDYPAj9WAbk" title="AAAI-21"><img src="doc_files/YT.png" width="500"></a>
+
 
 ## FAQ
 
