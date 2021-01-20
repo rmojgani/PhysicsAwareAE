@@ -64,7 +64,7 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 
 
 - **What's the complexity of the optimization problem?**
-	- Each iteration of the optimization problem is of <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7D%5Cmathcal%7BO%7D((N_x%20N_t)%5E3)">; However, the cost can be reduced by *down-sampling* both <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7DU_x"> and <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7DV_x">, and yet evaluating the cost function on the fine grid. The number of iterations required for convergence is problem dependent.
+	- Each iteration of the optimization problem is of <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7D%5Cmathcal%7BO%7D((N%20K)%5E3)">; However, the cost can be reduced by *down-sampling* both <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7DU_x"> and <img src="https://render.githubusercontent.com/render/math?math=%5Ccolor%7BBlueGreen%7DV_x">, and yet evaluating the cost function on the fine grid. The number of iterations required for convergence is problem dependent.
 
 ## Requirements
 - Matlab R2016+
