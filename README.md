@@ -143,14 +143,24 @@ main_manifold_wave_small.ipynb
 
 
 ## Citation
-To appear in AAAI-21; Meanwhile, read more [[here]](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
+To appear in proceedings of AAAI-21; read more [[here]](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
+
+```
+@article{Mojgani_AAAI_2021,
+	author={Mojgani, Rambod and Balajewicz, Maciej},
+	title={Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s},
+	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+	year=2021,
+}
+```
+
 ```
 @article{Mojgani_arxiv_2020,
-	author = {Mojgani, Rambod and Balajewicz, Maciej},
+	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Physics-aware registration based auto-encoder for convection dominated {PDE}s},
 	journal={arXiv preprint arXiv:2006.15655},
-	archivePrefix = "arXiv",
-	eprint = {2006.15655},
-	year = 2020,
+	archivePrefix="arXiv",
+	eprint={2006.15655},
+	year=2020,
 }
 ```
