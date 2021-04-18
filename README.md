@@ -143,7 +143,7 @@ main_manifold_wave_small.ipynb
 
 
 ## Citation
-The low-rank registeration based auto-encoder/manifold [2,3] is built on the idea of low-rank Lagrangian bases first introduced in [1].
+The low-rank registeration based auto-encoder/manifold [2] is built on the idea of low-rank Lagrangian bases first introduced in [1].
 Entries are listed chronologically.
 
 - \[1\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
