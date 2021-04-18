@@ -143,14 +143,13 @@ main_manifold_wave_small.ipynb
 
 
 ## Citation
-To appear in proceedings of AAAI-21; read more [[here]](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
+The low-rank registeration based auto-encoder/manifold [2,3] is built on the idea of low-rank Lagrangian bases first introduced in [1].
+Entries are listed chronologically.
 
 - \[1\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
 [**Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows.**](https://arxiv.org/abs/1701.04343)
 arXiv:1701.04343.
-([Download](https://arxiv.org/pdf/1701.04343))
-
-<details><summary>BibTeX</summary><pre>
+([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>
 @@article{Mojgani_arxiv_2017,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows},
@@ -161,26 +160,9 @@ arXiv:1701.04343.
 }</pre></details>
 
 - \[2\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
-[**Physics-aware registration based auto-encoder for convection dominated PDEs.**](https://arxiv.org/abs/2006.15655)
-arXiv:1701.04343.
-([Download](https://arxiv.org/pdf/2006.15655))
-
-<details><summary>BibTeX</summary><pre>
-@@article{Mojgani_arxiv_2020,
-	author={Mojgani, Rambod and Balajewicz, Maciej},
-	title={Physics-aware registration based auto-encoder for convection dominated {PDE}s},
-	journal={arXiv preprint arXiv:2006.15655},
-	archivePrefix="arXiv",
-	eprint={2006.15655},
-	year=2020,
-}</pre></details>
-
-- \[3\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
 [**Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s.**](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
 _in Proceedings of Association for the Advancement of Artificial Intelligence, Virtual Conference, February, 2021. Paper AIAA-2021-8654.
-([Download](https://arxiv.org/pdf/1701.04343))
-
-<details><summary>BibTeX</summary><pre>
+([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>
 @article{Mojgani_AAAI_2021,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s},
