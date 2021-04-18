@@ -151,7 +151,7 @@ arXiv:1701.04343.
 ([Download](https://arxiv.org/pdf/1701.04343))
 
 <details><summary>BibTeX</summary><pre>
-@@article{Mojgani_arxiv_2020,
+@@article{Mojgani_arxiv_2017,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows},
 	journal={arXiv preprint arXiv:1701.04343},
@@ -160,6 +160,10 @@ arXiv:1701.04343.
 	year=2017,
 }</pre></details>
 
+- \[2\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
+[**Physics-aware registration based auto-encoder for convection dominated PDEs.**](https://arxiv.org/abs/2006.15655)
+arXiv:1701.04343.
+([Download](https://arxiv.org/pdf/2006.15655))
 
 <details><summary>BibTeX</summary><pre>
 @@article{Mojgani_arxiv_2020,
@@ -170,6 +174,11 @@ arXiv:1701.04343.
 	eprint={2006.15655},
 	year=2020,
 }</pre></details>
+
+- \[3\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
+[**Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s.**](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
+_in Proceedings of Association for the Advancement of Artificial Intelligence, Virtual Conference, February, 2021. Paper AIAA-2021-8654.
+([Download](https://arxiv.org/pdf/1701.04343))
 
 <details><summary>BibTeX</summary><pre>
 @article{Mojgani_AAAI_2021,
