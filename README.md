@@ -145,6 +145,21 @@ main_manifold_wave_small.ipynb
 ## Citation
 To appear in proceedings of AAAI-21; read more [[here]](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
 
+- \[1\] [Mojgani, R.](https://scholar.google.com/citations?user=AWF32UEAAAAJ) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
+[**Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows.**](https://arxiv.org/abs/1701.04343)
+arXiv:1701.04343.
+([Download](https://arxiv.org/pdf/1701.04343))
+
+<details><summary>BibTeX</summary><pre>
+@@article{Mojgani_arxiv_2020,
+	author={Mojgani, Rambod and Balajewicz, Maciej},
+	title={Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows},
+	journal={arXiv preprint arXiv:1701.04343},
+	archivePrefix="arXiv",
+	eprint={1701.04343},
+	year=2017,
+}</pre></details>
+
 
 <details><summary>BibTeX</summary><pre>
 @@article{Mojgani_arxiv_2020,
