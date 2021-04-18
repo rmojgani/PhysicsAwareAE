@@ -164,3 +164,14 @@ To appear in proceedings of AAAI-21; read more [[here]](https://www.aaai.org/AAA
 	year=2020,
 }
 ```
+
+<details><summary>BibTeX</summary><pre>
+@@article{Mojgani_arxiv_2020,
+	author={Mojgani, Rambod and Balajewicz, Maciej},
+	title={Physics-aware registration based auto-encoder for convection dominated {PDE}s},
+	journal={arXiv preprint arXiv:2006.15655},
+	archivePrefix="arXiv",
+	eprint={2006.15655},
+	year=2020,
+}</pre></details>
+
