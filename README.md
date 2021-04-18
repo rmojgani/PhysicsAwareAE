@@ -150,7 +150,7 @@ Entries are listed chronologically.
 [**Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows.**](https://arxiv.org/abs/1701.04343)
 arXiv:1701.04343.
 ([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>
-@@article{Mojgani_arxiv_2017,
+@article{Mojgani_arxiv_2017,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows},
 	journal={arXiv preprint arXiv:1701.04343},
