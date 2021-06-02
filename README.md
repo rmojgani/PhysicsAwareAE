@@ -149,7 +149,8 @@ Entries are listed chronologically.
 - \[1\] [Mojgani, R.](https://www.rmojgani.com) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
 [**Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows.**](https://arxiv.org/abs/1701.04343)
 arXiv:1701.04343.
-([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>
+([Download](https://arxiv.org/pdf/1701.04343))
+<details><summary>BibTeX</summary><pre>
 @article{Mojgani_arxiv_2017,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Lagrangian basis method for dimensionality reduction of convection dominated nonlinear flows},
@@ -162,7 +163,8 @@ arXiv:1701.04343.
 - \[2\] [Mojgani, R.](https://www.rmojgani.com) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
 [**Low-Rank Registration Based Manifolds for Convection-Dominated PDEs.**](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
 _in Proceedings of Association for the Advancement of Artificial Intelligence_, Virtual Conference, February, 2021. Paper AIAA-2021-8654.
-([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>
+([Download](https://arxiv.org/pdf/1701.04343))
+<details><summary>BibTeX</summary><pre>
 @article{Mojgani_AAAI_2021,
 	author={Mojgani, Rambod and Balajewicz, Maciej},
 	title={Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s},
