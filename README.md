@@ -160,12 +160,17 @@ arXiv:1701.04343.
 }</pre></details>
 
 - \[2\] [Mojgani, R.](https://www.rmojgani.com) and [Balajewicz, M.](https://scholar.google.com/citations?user=FLg_n08AAAAJ),
-[**Low-Rank Registration Based Manifolds for Convection-Dominated PDEs.**](https://www.aaai.org/AAAI21Papers/AAAI-8654.MojganiR.pdf)
+[**Low-Rank Registration Based Manifolds for Convection-Dominated PDEs.**](https://ojs.aaai.org/index.php/AAAI/article/view/16116/15923)
 _in Proceedings of Association for the Advancement of Artificial Intelligence_, Virtual Conference, February, 2021. Paper AIAA-2021-8654.
-([Download](https://arxiv.org/pdf/1701.04343))<details><summary>BibTeX</summary><pre>@article{Mojgani_AAAI_2021,
-	author={Mojgani, Rambod and Balajewicz, Maciej},
-	title={Low-Rank Registration Based Manifolds for Convection-Dominated {PDE}s},
+([Download](https://ojs.aaai.org/index.php/AAAI/article/view/16116/15923))<details><summary>BibTeX</summary><pre>@article{Mojgani_AAAI_2021, 
+	title={Low-Rank Registration Based Manifolds for Convection-Dominated PDEs},
+	volume={35}, 
+	url={https://ojs.aaai.org/index.php/AAAI/article/view/16116}, 
+	number={1}, 
 	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
-	year=2021,
+	author={Mojgani, Rambod and Balajewicz, Maciej}, 
+	year=2021, 
+	month=may, 
+	pages={399-407},
 }</pre></details>
 
