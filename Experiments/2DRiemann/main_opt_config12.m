@@ -2,6 +2,7 @@ clear
 close all
 clc
 addpath(genpath('matlab_cfd_shock_tube_TVDRK2'))
+addpath(genpath('../../utils/'))
 my_case = 12;
 k_d = 2;
 k_w = 4;
