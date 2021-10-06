@@ -30,7 +30,7 @@ We design a physics-aware auto-encoder to specifically reduce the dimensionality
 ## FAQ
 
 - **Why is the method considered *physics-aware*?**
-	- The existance of a low-rank time/parameter-varying grid that minimizes the Kolmogrov n-width of the snapshots is a conjecture based on the physics of many of the convection dominated flows and is based on the possiblity of low-rank approximation of the characteristics line of hyperbolic PDEs, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343).
+	- The existance of a low-rank time/parameter-varying grid that minimizes the Kolmogrov n-width of the snapshots is a conjecture based on the physics of many of the convection dominated flows and is based on the possiblity of low-rank approximation of the characteristics line of hyperbolic PDEs, read sec 3.1 of [this](https://arxiv.org/abs/1701.04343)[1].
 	
 - **Why is the method considered an *auto-encoder*?**
 	- We make a one-to-one comparison of the traditional definition of a neural network-based auto-encoder to the proposed approach. An auto-encoder is defined as:
