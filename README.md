@@ -170,7 +170,8 @@ _in Proceedings of Association for the Advancement of Artificial Intelligence_, 
 	journal={Proceedings of the AAAI Conference on Artificial Intelligence},
 	author={Mojgani, Rambod and Balajewicz, Maciej}, 
 	year=2021, 
-	month=may, 
+	month=may,
+	DOI={10.1609/aaai.v35i1.16116},
 	pages={399-407},
 }</pre></details>
 
